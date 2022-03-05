@@ -1,0 +1,101 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background-image: url("https://images.unsplash.com/photo-1634176866089-b633f4aec882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80");
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: center;
+}
+
+i {
+     margin-top: 30px;
+     font-size:100px;
+}
+
+h1 {
+     text-align: center;
+     color: grey;
+     font-size: 90px;
+     padding-bottom: 150px;
+}
+
+ul {
+     display: flex;
+     flex-direction: row;
+     list-style: none;
+     text-align: center;
+     justify-content: space-around;
+
+}
+
+li {
+     border: 3px solid black;
+     border-radius: 20%;
+     width: 300px;
+     height: 300px;
+     text-align: center;
+     justify-content: center;
+     color: black;
+     font-size: 70px;
+     font-weight: bolder;
+     margin: auto;
+     padding: 25px;
+}
+
+#fall {
+     background-image: url('https://images.unsplash.com/photo-1482109920615-41d79c403116?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+     background-position: center;
+
+}
+
+#spring {
+     background-image:url('https://images.unsplash.com/photo-1602615576820-ea14cf3e476a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+     background-position: center;
+}
+#summer {
+     background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80') ;
+     background-position: center;
+}
+#winter {
+     background-image: url('https://images.unsplash.com/photo-1491002052546-bf38f186af56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1208&q=80') ;
+     background-position: center;
+}
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
